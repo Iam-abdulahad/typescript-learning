@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },  
+  "scripts": {
+    "dev": "ts-node learning-path-1/01-basic-types.ts"
+  }
+}

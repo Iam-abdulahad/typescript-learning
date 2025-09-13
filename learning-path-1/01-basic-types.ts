@@ -3,24 +3,30 @@
  */
 
 // 1. String
-let name: string = "Alice";
-// Expected output: Alice
+let firstName: string = "Alice";
+let lastName: string = "Sakin";
+console.log(firstName, lastName); // Expected output: Alice Sakin
 
 // 2. Number
-let age: number = 30;
-// Expected output: 30
+let num1: number = 30;
+let num2: number = 25;
+let sum : number = num1+num2;
+console.log(sum)// Expected output: 55
 
 // 3. Boolean
 let isStudent: boolean = true;
-// Expected output: true
+console.log(isStudent); // Expected output: true
+
+let isWorker : boolean = false;
+console.log(isWorker); // Expected output: false
 
 // 4. Array
 let scores: number[] = [90, 85, 88];
-// Expected output: [90, 85, 88]
+console.log(scores); // Expected output: [90, 85, 88]
 
 // 5. Tuple
 let person: [string, number] = ["Bob", 25];
-// Expected output: ["Bob", 25]
+console.log(person); // Expected output: ["Bob", 25]
 
 // 6. Enum
 enum Color {
@@ -29,18 +35,17 @@ enum Color {
           Blue
 }
 let favoriteColor: Color = Color.Green;
-// Expected output: 1
+console.log(favoriteColor); // Expected output: 1
 
 // 7. Any
 let randomValue: any = "Hello";
 randomValue = 10;
-// Expected output: 10
+console.log(randomValue); // Expected output: 10
 
 // 8. Void (for functions with no return value)
 function greet(): void {
           console.log("Hello, world!");
 }
-// Expected output: Hello, world!
 
 // 9. Null and Undefined
 let u: undefined = undefined;
@@ -49,4 +54,4 @@ let n: null = null;
 
 // 10. Object
 let user: { name: string; age: number } = { name: "Charlie", age: 28 };
-// Expected output: { name: "Charlie", age: 28 }
+console.log(user) // Expected output: { name: "Charlie", age: 28 }
