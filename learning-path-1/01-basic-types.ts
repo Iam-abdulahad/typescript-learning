@@ -11,7 +11,7 @@ console.log(firstName, lastName); // Expected output: Alice Sakin
 let num1: number = 30;
 let num2: number = 25;
 let sum : number = num1+num2;
-console.log(sum)// Expected output: 55
+console.log("sum of 30 and 25 is :", sum)// Expected output: 55
 
 // 3. Boolean
 let isStudent: boolean = true;
@@ -44,7 +44,7 @@ console.log(randomValue); // Expected output: 10
 
 // 8. Void (for functions with no return value)
 function greet(): void {
-          console.log("Hello, world!");
+          console.log("Hello form void function !");
 }
 
 // 9. Null and Undefined
