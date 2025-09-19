@@ -24,7 +24,7 @@ const combinedArray: number[] = array1.concat(array2);
 
 // Execute function for each element
 const numbers3: number[] = [1, 2, 3, 4, 5];
-numbers.forEach((num, index, array) => {
+numbers3.forEach((num, index, array) => {
           // console.log(num, index);
 });
 // Output:
@@ -148,7 +148,7 @@ numbers12.sort((a, b) => a - b); // [1, 2, 3, 5, 8]
 
 // Custom sort
 const users12 = [{name: "John", age: 25}, {name: "Jane", age: 30}];
-users.sort((a, b) => a.age - b.age);
+users12.sort((a, b) => a.age - b.age);
 // console.log(users); // Output: [{name: "John", age: 25}, {name: "Jane", age: 30}]
 
 // Reverse the order of elements
